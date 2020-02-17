@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "alias": "sam-smith-studio",
+  "name": "sam-smith-studio",
+  "routes": [
+      { "handle": "filesystem" },
+      { "src": "/.*", "dest": "/index.html" }
+  ]
+}
