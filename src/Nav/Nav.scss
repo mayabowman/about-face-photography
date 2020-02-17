@@ -1,0 +1,30 @@
+.logo-link {
+  text-decoration: none;
+  color: black;
+  font-size: 22px;
+}
+
+.Nav-header {
+  font-family: 'Montserrat Subrayada', sans-serif;
+  order: 0;
+  flex: 1 1 auto;
+  align-self: auto;
+  text-align: left;
+
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-content: stretch;
+  align-items: center;
+  padding: 15px 20px 15px 20px;
+}
+
+.right-nav {
+  margin-left: 10px;
+  text-decoration: none;
+  color: black;
+}
