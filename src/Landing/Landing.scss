@@ -5,17 +5,40 @@
   margin: 10px;
 }
 
-.photo-div {
-  width: 100%;
-}
-
 .sq-div {
   height: 280px;
-  width: 400px;
   overflow: hidden;
-  margin: 0 auto;
+  text-align: center;
 }
 
 #square-img {
   width: 280px;
+}
+
+.photo-div {
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .headshot {
+    width: 280px;
+    height: 400px;
+    object-fit: cover;
+    margin: 10px;
+  }
+
+  .photo-div {
+    width: 100%;
+  }
+
+  .sq-div {
+    height: 280px;
+    width: 400px;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+
+  #square-img {
+    width: 280px;
+  }
 }
