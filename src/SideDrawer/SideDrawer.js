@@ -22,6 +22,13 @@ class SideDrawer extends React.Component {
         >
           Contact
         </Link>
+        <Link
+          to={'/'}
+          className='side-drawer__text-link'
+          onClick={this.props.toggle}
+        >
+          Home
+        </Link>
       </nav>
     )
   }
