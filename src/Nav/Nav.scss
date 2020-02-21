@@ -9,8 +9,8 @@
   order: 0;
   flex: 1 1 auto;
   align-self: auto;
-  text-align: left;
-
+  text-align: right;
+  margin-left: 10px;
 }
 
 .nav-container {
@@ -24,7 +24,37 @@
 }
 
 .right-nav {
-  margin-left: 10px;
-  text-decoration: none;
-  color: black;
+  display: none;
+}
+
+@media (min-width: 769px) {
+  .navbar-toggle-button{
+    display: none;
+  }
+
+  .Nav-header {
+    font-family: 'Montserrat Subrayada', sans-serif;
+    order: 0;
+    flex: 1 1 auto;
+    align-self: auto;
+    text-align: left;
+
+  }
+
+  .nav-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: stretch;
+    align-items: center;
+    padding: 15px 20px 15px 20px;
+  }
+
+  .right-nav {
+    display: flex;
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+  }
 }
