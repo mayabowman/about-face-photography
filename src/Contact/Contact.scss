@@ -1,0 +1,25 @@
+.phone, .email {
+  border: 1px solid black;
+  margin: 15px;
+  padding: 15px;
+}
+
+@media (min-width: 769px) {
+  .contact-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: stretch;
+    align-items: center;
+  }
+
+  .phone, .email {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+    border: 1px solid black;
+    width: 40%;
+    padding: 25px;
+  }
+}

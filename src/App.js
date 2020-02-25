@@ -7,7 +7,7 @@ import Nav from './Nav/Nav';
 import SideDrawer from './SideDrawer/SideDrawer';
 import Backdrop from './Backdrop/Backdrop';
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { faBars, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 import './App.scss';
 
 
@@ -31,7 +31,7 @@ class App extends React.Component {
   }
 
   render() {
-    library.add(faBars);
+    library.add(faBars, faPhone, faEnvelope);
     let backdrop;
     if (this.state.sideDrawerOpen) {
       backdrop = <Backdrop click={this.backdropClickHandler} />

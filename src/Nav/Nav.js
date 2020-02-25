@@ -5,7 +5,7 @@ import './Nav.scss';
 
 class Nav extends React.Component {
   render() {
-      return (
+    return (
       <nav className='nav-container'>
         <div className='navbar-toggle-button' onClick={this.props.drawerClickHandler}>
           <FontAwesomeIcon
