@@ -4,8 +4,8 @@ import './Landing.scss';
 class Landing extends React.Component {
   render() {
     let names = [
-      'AmberB', 'AmberR', 'Gilbert', 'Graffy', 'Kraig', 'Lenny', 'Lisette1', 'Lisette2',
-      'Mac', 'Maria', 'Maya1', 'Maya2', 'Michelle', 'Steve'
+      'Michelle', 'AmberB', 'AmberR', 'Gilbert', 'Graffy', 'Kraig', 'Lenny', 'Lisette1', 'Lisette2',
+      'Mac', 'Maria', 'Maya1', 'Maya2', 'Steve'
     ]
     const photoDisplay = names.map((name, i) => {
       return <img key={i} src={require(`../images/${name}.jpg`)} className='headshot'alt='headshot'/>
