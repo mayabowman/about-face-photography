@@ -1,6 +1,24 @@
-.about {
-  margin: auto;
-  width: 75%;
+.about-page {
+  margin-left: 25px;
+  margin-right: 25px;
+  width: 85%;
   font-size: 18px;
   text-align: left;
+}
+
+@media (min-width: 769px) {
+  .about {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: stretch;
+    align-items: flex-start;
+  }
+
+  p, img {
+    order: 0;
+    flex: 1 1 auto;
+    align-self: center;
+  }
 }
