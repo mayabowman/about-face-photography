@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { FaInstagram } from 'react-icons/fa';
+// import { FaInstagram } from 'react-icons/fa';
 import './Contact.scss';
 
 class Contact extends React.Component {
@@ -17,7 +17,7 @@ class Contact extends React.Component {
             />
             <p>260.414.3152</p>
           </div>
-          <a
+          {/* <a
             href='www.instagram.com/samsmith_studio/'
             className='instagram'
           >
@@ -28,7 +28,7 @@ class Contact extends React.Component {
               />
               <p>samsmith_studio</p>
             </div>
-          </a>
+          </a> */}
           <div className='email'>
             <FontAwesomeIcon
               icon={'envelope'}
