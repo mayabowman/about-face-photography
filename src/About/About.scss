@@ -16,9 +16,24 @@
     align-items: flex-start;
   }
 
-  p, img {
+  .about-page {
+    margin-left: 25px;
+    margin-right: 25px;
+    width: 97%;
+    font-size: 18px;
+    text-align: left;
+  }
+
+  p {
     order: 0;
     flex: 1 1 auto;
+    align-self: center;
+    margin-right: 15px;
+  }
+
+  img {
+    order: 0;
+    flex: 0 1 auto;
     align-self: center;
   }
 }
