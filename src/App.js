@@ -7,7 +7,8 @@ import Nav from './Nav/Nav';
 import SideDrawer from './SideDrawer/SideDrawer';
 import Backdrop from './Backdrop/Backdrop';
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faBars, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faBars, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 import './App.scss';
 
 
