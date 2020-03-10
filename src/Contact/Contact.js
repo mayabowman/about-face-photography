@@ -19,9 +19,7 @@ class Contact extends React.Component {
             <p>260.414.3152</p>
           </div> */}
           <div className='instagram'>
-            <a
-              href='www.instagram.com/samsmith_studio/'
-            >
+            <a href='https://www.instagram.com/samsmith_studio/'>
               <FaInstagram
                 className='insta-icon'
                 size={32}
@@ -30,12 +28,14 @@ class Contact extends React.Component {
             </a>
           </div>
           <div className='email'>
+            <a href='mailto:sam3lpi@gmail.com'>
             <FontAwesomeIcon
               icon={faEnvelope}
               className='envelope'
               size='2x'
             />
             <p>sam3lpi@gmail.com</p>
+            </a>
           </div>
         </div>
       </div>
