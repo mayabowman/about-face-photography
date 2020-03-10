@@ -9,11 +9,13 @@
 @media (min-width: 769px) {
   .about {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: nowrap;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-content: stretch;
-    align-items: flex-start;
+    align-items: center;
+    width: 50%;
+    margin: auto;
   }
 
   .about-page {
@@ -24,16 +26,22 @@
     text-align: left;
   }
 
-  p {
-    order: 0;
-    flex: 1 1 auto;
-    align-self: center;
-    margin-right: 15px;
-  }
-
-  img {
+  p, img {
     order: 0;
     flex: 0 1 auto;
     align-self: center;
   }
+
+  // p {
+  //   order: 0;
+  //   flex: 1 1 auto;
+  //   align-self: center;
+  //   margin-right: 15px;
+  // }
+
+  // img {
+  //   order: 0;
+  //   flex: 0 1 auto;
+  //   align-self: center;
+  // }
 }
